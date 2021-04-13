@@ -310,4 +310,46 @@ class CRM_Civicase_Service_CaseCategoryMenu {
     ]);
   }
 
+  /**
+   * Sets the status of Case Category Main menu.
+   *
+   * @param string $caseTypeCategoryName
+   *   Case Type category name.
+   * @param bool $status
+   *   Case Type status.
+   */
+  private function setStatus($caseTypeCategoryName, $status) {
+    $result = civicrm_api3('Navigation', 'get', ['name' => $caseTypeCategoryName]);
+
+    if ($result['count'] === 0) {
+      return;
+    }
+
+    $navigationItem = array_shift($result['values']);
+    civicrm_api3('Navigation', 'create', [
+      'id' => $navigationItem['id'],
+      'is_active' => $status,
+    ]);
+  }
+
+  /**
+   * Activates Case Category Main menu.
+   *
+   * @param string $caseTypeCategoryName
+   *   Case Type category name.
+   */
+  public function activateItem($caseTypeCategoryName) {
+    $this->setStatus($caseTypeCategoryName, TRUE);
+  }
+
+  /**
+   * Deactivates Case Category Main menu.
+   *
+   * @param string $caseTypeCategoryName
+   *   Case Type category name.
+   */
+  public function deactivateItem($caseTypeCategoryName) {
+    $this->setStatus($caseTypeCategoryName, FALSE);
+  }
+
 }

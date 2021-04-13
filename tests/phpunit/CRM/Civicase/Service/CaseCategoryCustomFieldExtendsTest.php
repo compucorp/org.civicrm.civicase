@@ -77,6 +77,43 @@ class CRM_Civicase_Service_CaseCategoryCustomFieldExtendsTest extends BaseHeadle
   }
 
   /**
+   * Test activating an existing CG extend option value.
+   */
+  public function testIsSuccessfullyActivated() {
+    // Create a random CG extend option value.
+    $cgExtendOptionValue = $this->createCgExtendOptionValue();
+    // We deactivate it and verify that is correctly stored.
+    (new CaseCategoryCustomFieldExtendsService())->deactivate($cgExtendOptionValue['value']);
+    $cgExtendOptionValue = $this->getCgExtendOptionValue($cgExtendOptionValue['value'])['values'][0];
+    $this->assertEquals(0, $cgExtendOptionValue['is_active']);
+
+    // Activate the CG extend option value.
+    (new CaseCategoryCustomFieldExtendsService())->activate($cgExtendOptionValue['value']);
+
+    // And verify that is not counted anymore.
+    $cgExtendOptionValue = $this->getCgExtendOptionValue($cgExtendOptionValue['value'])['values'][0];
+    $this->assertEquals(1, $cgExtendOptionValue['is_active']);
+  }
+
+  /**
+   * Test deactivating an existing CG extend option value.
+   */
+  public function testIsSuccessfullyDeactivated() {
+    // Create a random CG extend option value.
+    $cgExtendOptionValue = $this->createCgExtendOptionValue();
+    // We verify that is correctly stored.
+    $cgExtendOptionValue = $this->getCgExtendOptionValue($cgExtendOptionValue['value'])['values'][0];
+    $this->assertEquals(1, $cgExtendOptionValue['is_active']);
+
+    // Activate the CG extend option value.
+    (new CaseCategoryCustomFieldExtendsService())->deactivate($cgExtendOptionValue['value']);
+
+    // And verify that is not counted anymore.
+    $cgExtendOptionValue = $this->getCgExtendOptionValue($cgExtendOptionValue['value'])['values'][0];
+    $this->assertEquals(0, $cgExtendOptionValue['is_active']);
+  }
+
+  /**
    * Test that calling twice the delete method does not produce an error.
    */
   public function testDeleteCanBeCalledTwice() {

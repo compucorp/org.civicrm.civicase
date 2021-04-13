@@ -41,6 +41,40 @@ class CRM_Civicase_Service_CaseCategoryCustomFieldExtends {
   }
 
   /**
+   * Activates the Custom field extend option group for case category.
+   *
+   * @param string $entityValue
+   *   Entity Value for the custom entity.
+   */
+  public function activate($entityValue) {
+    $result = $this->getCgExtendOptionValue($entityValue);
+
+    if ($result['count'] == 0) {
+      return;
+    }
+
+    $isActive = TRUE;
+    CRM_Core_BAO_OptionValue::setIsActive($result['values'][0]['id'], $isActive);
+  }
+
+  /**
+   * Deactivates the Custom field extend option group for case category.
+   *
+   * @param string $entityValue
+   *   Entity Value for the custom entity.
+   */
+  public function deactivate($entityValue) {
+    $result = $this->getCgExtendOptionValue($entityValue);
+
+    if ($result['count'] == 0) {
+      return;
+    }
+
+    $isActive = FALSE;
+    CRM_Core_BAO_OptionValue::setIsActive($result['values'][0]['id'], $isActive);
+  }
+
+  /**
    * Deletes the Custom field extend option group for case category.
    *
    * @param string $entityValue
