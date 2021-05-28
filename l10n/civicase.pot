@@ -1,0 +1,2364 @@
+#: ./CRM/Civicase/Api/Wrapper/CaseList.php ./ang/civicase/case/contact-case-tab/directives/contact-case-tab-case-details.directive.html ./ang/civicase/case/list/directives/case-list-table-first-column-header.html
+msgid "Next Activity"
+msgstr ""
+
+#: ./CRM/Civicase/Api/Wrapper/CaseList.php ./CRM/Civicase/Form/Report/ColumnDefinitionTrait.php ./ang/civicase/case/list/directives/case-list-table-first-column-header.html
+msgid "Subject"
+msgstr ""
+
+#: ./CRM/Civicase/Api/Wrapper/CaseList.php ./ang/civicase/activity/filters/directives/activity-filters.directive.js ./ang/civicase/case/list/directives/case-list-table-first-column-header.html
+msgid "Status"
+msgstr ""
+
+#: ./CRM/Civicase/Api/Wrapper/CaseList.php ./ang/civicase/case/list/directives/case-list-table-first-column-header.html
+msgid "Type"
+msgstr ""
+
+#: ./CRM/Civicase/Api/Wrapper/CaseList.php ./ang/civicase/case/list/directives/case-list-table-first-column-header.html ./ang/civicase/case/search/directives/search.directive.js
+msgid "Case Manager"
+msgstr ""
+
+#: ./CRM/Civicase/Api/Wrapper/CaseList.php ./ang/civicase/case/list/directives/case-list-table-first-column-header.html ./ang/civicase/case/search/directives/search.directive.js
+msgid "Start Date"
+msgstr ""
+
+#: ./CRM/Civicase/Api/Wrapper/CaseList.php ./ang/civicase/case/list/directives/case-list-table-first-column-header.html
+msgid "Last Updated"
+msgstr ""
+
+#: ./CRM/Civicase/Api/Wrapper/CaseList.php ./ang/civicase/case/list/directives/case-list-table-first-column-header.html
+msgid "My Role"
+msgstr ""
+
+#: ./CRM/Civicase/Check.php
+msgid "This system uses embedded activity revisions. This feature should be <em>disabled</em> for CiviCase 5. See <a href=\"%1\">CiviCase Settings</a>."
+msgstr ""
+
+#: ./CRM/Civicase/Check.php
+msgid "CiviCase: Disable old-style logging"
+msgstr ""
+
+#: ./CRM/Civicase/Check.php
+msgid "This system does <em>not</em> use data logging. This feature should be <em>enabled</em> for CiviCase 5. See <a href=\"%1\">Misc Settings</a>."
+msgstr ""
+
+#: ./CRM/Civicase/Check.php
+msgid "CiviCase: Enable new-style logging"
+msgstr ""
+
+#: ./CRM/Civicase/Check.php
+msgid "This database includes ~%1 historical activity revisions based on the legacy format. This may not work correctly with some filters or reports. Consider migrating or archiving this data."
+msgstr ""
+
+#: ./CRM/Civicase/Check.php
+msgid "CiviCase: Migrate historical logs"
+msgstr ""
+
+#: ./CRM/Civicase/FileCategory.php
+msgid "Archive"
+msgstr ""
+
+#: ./CRM/Civicase/FileCategory.php
+msgid "Document"
+msgstr ""
+
+#: ./CRM/Civicase/FileCategory.php
+msgid "Media"
+msgstr ""
+
+#: ./CRM/Civicase/FileCategory.php
+msgid "Presentation"
+msgstr ""
+
+#: ./CRM/Civicase/FileCategory.php
+msgid "Spreadsheet"
+msgstr ""
+
+#: ./CRM/Civicase/FileCategory.php
+msgid "Other"
+msgstr ""
+
+#: ./CRM/Civicase/Form/CaseCategoryTypeCustomField.php
+msgid "Administer %1"
+msgstr ""
+
+#: ./CRM/Civicase/Form/CaseCategoryTypeCustomField.php ./CRM/Civicase/Form/CaseWebforms.php ./ang/civicase/activity/actions/services/move-copy-activity-action.service.js ./ang/civicase/case/actions/services/edit-tags-case-action.service.js ./ang/test/workflow/action-links/controllers/workflow-duplicate.controller.spec.js ./ang/workflow/action-links/controllers/workflow-duplicate.controller.js
+msgid "Save"
+msgstr ""
+
+#: ./CRM/Civicase/Form/CaseCategoryTypeCustomField.php ./CRM/Civicase/Form/CaseWebforms.php ./CRM/Civicase/Form/LockedContacts.php ./ang/civicase/shared/directives/file-uploader.directive.html
+msgid "Cancel"
+msgstr ""
+
+#: ./CRM/Civicase/Form/CaseWebforms.php
+msgid "No Webforms with cases exists!"
+msgstr ""
+
+#: ./CRM/Civicase/Form/CaseWebforms.php
+msgid "Your changes have been saved successfully."
+msgstr ""
+
+#: ./CRM/Civicase/Form/LockedContacts.php
+msgid "Locked Contacts"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/BaseExtendedReport.php
+msgid "Results"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/BaseExtendedReport.php ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "Aggregate Report Column Headers"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/BaseExtendedReport.php ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "- select -"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/BaseExtendedReport.php ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "Row Fields"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/BaseExtendedReport.php
+msgid "Date Grouping"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/BaseExtendedReport.php
+msgid "Data Function Fields"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/BaseExtendedReport.php
+msgid "Data Functions"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/BaseExtendedReport.php ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "Pivot table"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/BaseExtendedReport.php ./CRM/Civicase/Form/Report/ExtendedReport.php ./ang/civicase/case/search/directives/search.directive.js ./ang/workflow/columns/directives/workflow-list-column-is-enabled.html
+msgid "Yes"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/BaseExtendedReport.php ./CRM/Civicase/Form/Report/ExtendedReport.php ./ang/civicase/case/search/directives/search.directive.js ./ang/workflow/columns/directives/workflow-list-column-is-enabled.html
+msgid "No"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/BaseExtendedReport.php ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "Total"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/BaseExtendedReport.php
+msgid "Aggregate filter : "
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/BaseExtendedReport.php ./CRM/Civicase/Form/Report/ExtendedReport.php ./ang/civicase/case/list/directives/case-list.html
+msgid "Filters"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/Case/CaseWithActivityPivot.php
+msgid "Case"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/Case/CaseWithActivityPivot.php
+msgid "Activity"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/Case/CaseWithActivityPivot.php
+msgid "As At Date"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ColumnDefinitionTrait.php
+msgid "Activity ID"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ColumnDefinitionTrait.php
+msgid "Source Record ID"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ColumnDefinitionTrait.php
+msgid "Activity Type"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ColumnDefinitionTrait.php
+msgid "Activity Date"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ColumnDefinitionTrait.php
+msgid "Activity Status"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ColumnDefinitionTrait.php
+msgid "Activity Duration"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ColumnDefinitionTrait.php
+msgid "Activity Details"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ColumnDefinitionTrait.php
+msgid "Activity Result"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ColumnDefinitionTrait.php
+msgid "Current Revision"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ColumnDefinitionTrait.php
+msgid "Is activity deleted"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ColumnDefinitionTrait.php ./ang/civicase/case/card/directives/case-card-dashboard.directive.html ./ang/civicase/case/list/directives/case-list-table-first-column-header.html ./ang/civicase/case/search/directives/search.directive.html ./ang/civicase/case/search/directives/search.directive.js
+msgid "Case ID"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ColumnDefinitionTrait.php
+msgid "Case Subject"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ColumnDefinitionTrait.php
+msgid "Case Status"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ColumnDefinitionTrait.php
+msgid "Case Type"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ColumnDefinitionTrait.php ./ang/civicase/case/search/directives/search.directive.html
+msgid "Case Start Date"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ColumnDefinitionTrait.php ./ang/civicase/case/search/directives/search.directive.html
+msgid "Case End Date"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ColumnDefinitionTrait.php
+msgid "Case Created Date"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ColumnDefinitionTrait.php
+msgid "Case Modified Date"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ColumnDefinitionTrait.php
+msgid "Case is in the Trash?"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ColumnDefinitionTrait.php
+msgid "Contact Name"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ColumnDefinitionTrait.php
+msgid "Contact ID"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ColumnDefinitionTrait.php
+msgid "External ID"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ColumnDefinitionTrait.php
+msgid "Contact Name (in sort format)"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ColumnDefinitionTrait.php
+msgid "Contact Type"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ColumnDefinitionTrait.php
+msgid "Contact Sub Type"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ColumnDefinitionTrait.php
+msgid "First Name"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ColumnDefinitionTrait.php
+msgid "Middle Name"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ColumnDefinitionTrait.php
+msgid "Last Name"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ColumnDefinitionTrait.php
+msgid "Nick Name"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ColumnDefinitionTrait.php
+msgid "Gender"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ColumnDefinitionTrait.php
+msgid "Birth Date"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ColumnDefinitionTrait.php
+msgid "Age"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ColumnDefinitionTrait.php
+msgid "Do Not Email"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ColumnDefinitionTrait.php
+msgid "Do Not Phone"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ColumnDefinitionTrait.php
+msgid "Do Not Mail"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ColumnDefinitionTrait.php
+msgid "Do Not SMS"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ColumnDefinitionTrait.php
+msgid "Do Not Trade"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ColumnDefinitionTrait.php
+msgid "No Bulk Emails (User Opt Out)"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ColumnDefinitionTrait.php
+msgid "Preferred Communication Method"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ColumnDefinitionTrait.php
+msgid "Preferred Language"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ColumnDefinitionTrait.php
+msgid "Preferred Mail Format"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ColumnDefinitionTrait.php
+msgid "Individual Prefix"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ColumnDefinitionTrait.php
+msgid "Individual Suffix"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ColumnDefinitionTrait.php
+msgid "Communication Style"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ColumnDefinitionTrait.php
+msgid "Deceased"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ColumnDefinitionTrait.php
+msgid "Deceased Date"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ColumnDefinitionTrait.php
+msgid "Household Primary Contact ID"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ColumnDefinitionTrait.php
+msgid "Contact is in Trash"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ColumnDefinitionTrait.php
+msgid "Created Date"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ColumnDefinitionTrait.php
+msgid "Modified Date"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ColumnDefinitionTrait.php
+msgid "Latest Activity Type"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ColumnDefinitionTrait.php
+msgid "Latest Activity Date"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ColumnDefinitionTrait.php
+msgid "Case Tag"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "Display as tab on contact record"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "Make available for contact summary page (requires contact layout editor extension)"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "Select field to use as contact filter"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "Override default number of rows with"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "Tag"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php ./ang/civicase/case/search/directives/search.directive.js
+msgid "Tags"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "Group"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "Unknown"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "Select Columns"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "Columns"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "Display Options"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "Sorting"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "Order by Column"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "Order by Order"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "Order by Section"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "Page Break"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "Until Date"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "From Date"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "Contains"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "Starts with"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "Ends with"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "Does not contain"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "Is equal to"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "Is not equal to"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "Is empty (Null)"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "Is not empty (Null)"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "Regex is true"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "Select Alternate Template"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "Template"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "Line Item Financial Type"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "Individual Line Item"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "Participant Count"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "Total Participants"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "Price Field (line item)"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "Price Field Option (line item)"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "Quantity"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "Total Quantity Selected"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "Unit Price"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "Contribution Count"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "Count of Contributions"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "Line Total"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "Total of Line Items"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "Line Label"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "Tax Amount"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "Tax Total of Line Items"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "Non Deductible Amount"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "Non Deductible Total of Line Items"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "Price Field Value Label"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "Price Field Label"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "Event ID"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "Event Participant Status"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "Participant Role"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "Participant Fee Level"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "Current Cycle Start Date"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "Current Membership Cycle End Date"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "Number of Memberships"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "Membership Type"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "Membership Status"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid " Start Date"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid " Membership Cycle End Date"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "Financial Account Code"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "Financial Account Name"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "Cheque #"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "Payment Instrument"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "Currency"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "Transaction Date"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "Transaction #"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "Transaction Status"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "Financial_type"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "Accounting Code"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "Tax Deductible"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "Amount Paid"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "Total Amount Paid"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "Scheduled Payment Due"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "Amount to be paid"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "Cumulative to be paid"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "Payment Status"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "Next Payment Due"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "Next payment Amount"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "Payment Link"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "Membership Types"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "Event Title"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "Event Type"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "Fee Label"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "Event Start Date"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "Event End Date"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "Capacity"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "Is Active"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "Is Publicly Visible"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "Total Income"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "Paid Up Income"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "Total Paid Up Income"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "Pending Income"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "Total Pending Income"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "No. Participants"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "Total No. Participants"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "Paid Up Participants"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "Total No,. Paid Up Participants"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "Pending Participants"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "Total Pending Participants"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "Campaign Type"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php ./ang/civicase/activity/filters/directives/activity-filters.directive.js
+msgid "Campaign"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "Revenue goal"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "Contribution ID"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "Contribution Type (Financial)"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "Contribution Status"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "Contribution Amount"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "No. Contributions"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "Total Amount"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "Contribution Page"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "Contribution Contact ID"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "Contribution Details"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "Batch Title"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "Batch Status"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php ./ang/civicase/case/details/people-tab/directives/case-roles-tab.directive.html ./ang/civicase/case/details/people-tab/directives/other-relationships-tab.directive.html
+msgid "Phone"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "Pledged Amount"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "Total Pledge Amount"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "Financial Type"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "Frequency Unit"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "Installments"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "Pledge Made Date"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "Pledge Start Date"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "Pledge End Date"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "Pledge Status"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php ./ang/civicase/case/details/people-tab/directives/case-roles-tab.directive.html ./ang/civicase/case/details/people-tab/directives/other-relationships-tab.directive.html
+msgid "Email"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "Website"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "Website Type"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "Note"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "Relationship ID"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "Relationship Start Date"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "Relationship End Date"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php ./ang/civicase/case/details/people-tab/directives/contact-prompt-dialog.html ./ang/civicase/case/details/people-tab/directives/other-relationships-tab.directive.html ./ang/workflow/configs/workflow-list-columns.config.js
+msgid "Description"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "Relationship Status"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "Relationship Type"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "Relationship A-B "
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "Relationship B-A "
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "Contact Type  A"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "Contact Type  B"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "Join Filters"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "Address Name"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "Display Address"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "Street Number"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "Street Name"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "Street Address"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "Supplementary Address Field 1"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "Supplementary Address Field 2"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "Supplementary Address Field 3"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "Street Unit"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "City"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "Postal Code"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "Postal Code Suffix"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "County"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "State/Province"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "Country"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "Location Type"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid " Address ID"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "Primary Address?"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "View Contact Summary for Contact that registered the participant."
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "%1 for this country."
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "%1 for this county."
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "%1 for this state."
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "Pledge payment link not added"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "The pledge payment link cannot be added if the grouping options on the report make it ambiguous"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "Record a payment received for this pledged payment"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "Record Payment"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "N/A"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "January"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "February"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "March"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "April"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "May"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "June"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "July"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "August"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "September"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "October"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "November"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "December"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "Operator:"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "Min"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "Max"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "Quantity Selected"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "Between %1 and %2"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "and"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "Is Not"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "Is"
+msgstr ""
+
+#: ./CRM/Civicase/Form/Report/ExtendedReport.php
+msgid "--Select--"
+msgstr ""
+
+#: ./CRM/Civicase/Helper/CaseCategory.php
+msgid "Home"
+msgstr ""
+
+#: ./CRM/Civicase/Helper/CaseCategory.php
+msgid "CiviCRM"
+msgstr ""
+
+#: ./CRM/Civicase/Helper/CaseCategory.php
+msgid "Case Dashboard"
+msgstr ""
+
+#: ./CRM/Civicase/Hook/BuildForm/AddCaseCategoryCustomFields.php
+msgid "Secondary Label"
+msgstr ""
+
+#: ./CRM/Civicase/Hook/BuildForm/AddCaseCategoryInstanceField.php
+msgid "Instance Type"
+msgstr ""
+
+#: ./CRM/Civicase/Hook/BuildForm/EnableCaseCategoryIconField.php
+msgid "Icon"
+msgstr ""
+
+#: ./CRM/Civicase/Hook/BuildForm/EnableCaseCategoryIconField.php
+msgid "Choose Icon"
+msgstr ""
+
+#: ./CRM/Civicase/Hook/BuildForm/HandleDraftActivities.php
+msgid "Save Draft"
+msgstr ""
+
+#: ./CRM/Civicase/Hook/BuildForm/HandleDraftActivities.php
+msgid "Continue Editing"
+msgstr ""
+
+#: ./CRM/Civicase/Hook/BuildForm/HandleDraftActivities.php
+msgid "Saved as a Draft"
+msgstr ""
+
+#: ./CRM/Civicase/Hook/NavigationMenu/AlterForCaseMenu.php
+msgid "CiviCase Webforms"
+msgstr ""
+
+#: ./CRM/Civicase/Hook/Permissions/ExportCasesAndReports.php
+msgid "Access export action in manage cases and reports"
+msgstr ""
+
+#: ./CRM/Civicase/Hook/PostProcess/ActivityFormStatusWordReplacement.php
+msgid "%1 Saved"
+msgstr ""
+
+#: ./CRM/Civicase/Hook/PreProcess/CaseCategoryWordReplacementsForChangeCase.php
+msgid "%1 Activity"
+msgstr ""
+
+#: ./CRM/Civicase/Hook/Tabset/CaseTabModifier.php ./ang/civicase/case/search/directives/search.directive.js
+msgid "Cases"
+msgstr ""
+
+#: ./CRM/Civicase/Hook/Tokens/AddContactTokens.php
+msgid "Current User "
+msgstr ""
+
+#: ./CRM/Civicase/Hook/ValidateForm/SaveActivityDraft.php
+msgid "Saved"
+msgstr ""
+
+#: ./CRM/Civicase/Hook/ValidateForm/SaveCaseTypeCategory.php
+msgid "Allowed characters: letters (a-z), numbers and hyphen."
+msgstr ""
+
+#: ./CRM/Civicase/Page/ContactActivityTab.php
+msgid "Activity Links"
+msgstr ""
+
+#: ./CRM/Civicase/Service/CaseCategoryMenu.php ./ang/civicase/dashboard/directives/dashboard.directive.html
+msgid "Dashboard"
+msgstr ""
+
+#: ./CRM/Civicase/Service/CaseCategoryMenu.php
+msgid "New %1"
+msgstr ""
+
+#: ./CRM/Civicase/Service/CaseCategoryMenu.php
+msgid "My %1"
+msgstr ""
+
+#: ./CRM/Civicase/Service/CaseCategoryMenu.php
+msgid "My %1 activities"
+msgstr ""
+
+#: ./CRM/Civicase/Service/CaseCategoryMenu.php
+msgid "All %1"
+msgstr ""
+
+#: ./CRM/Civicase/Service/CaseCategoryMenu.php
+msgid "Manage %1 Types"
+msgstr ""
+
+#: ./CRM/Civicase/Setup/AddCaseCategoryWordReplacementOptionGroup.php
+msgid "Case Type Category Word Replacements"
+msgstr ""
+
+#: ./CRM/Civicase/Setup/AddChangeCaseRoleDateActivityTypes.php
+msgid "Change Case Role Start Date"
+msgstr ""
+
+#: ./CRM/Civicase/Setup/AddChangeCaseRoleDateActivityTypes.php
+msgid "Change Case Role End Date"
+msgstr ""
+
+#: ./CRM/Civicase/Setup/CaseCategoryInstanceSupport.php
+msgid "Case Category Instance Type"
+msgstr ""
+
+#: ./CRM/Civicase/Setup/CaseTypeCategorySupport.php ./ang/civicase/activity/filters/directives/activity-filters.directive.html
+msgid "Case Type Categories"
+msgstr ""
+
+#: ./CRM/Civicase/Upgrader/Base.php ./CRM/Civicase/Upgrader.php
+msgid "Upgrade %1 to revision %2"
+msgstr ""
+
+#: ./CRM/Civicase/Upgrader.php ./ang/civicase/case/list/directives/case-list.html
+msgid "Manage Cases"
+msgstr ""
+
+#: ./CRM/Civicase/Upgrader.php
+msgid "Alert"
+msgstr ""
+
+#: ./CRM/Civicase/Upgrader.php
+msgid "Alerts to display in cases"
+msgstr ""
+
+#: ./CRM/Civicase/Upgrader.php
+msgid "File Upload"
+msgstr ""
+
+#: ./CRM/Civicase/Upgrader.php
+msgid "Add files to a case"
+msgstr ""
+
+#: ./CRM/Civicase/Upgrader.php ./ang/civicase-base/replaceable-db-strings/activity-types.js
+msgid "Remove Client From Case"
+msgstr ""
+
+#: ./CRM/Civicase/Upgrader.php
+msgid "Client removed from multi-client case"
+msgstr ""
+
+#: ./CRM/Civicase/Upgrader.php
+msgid "Unread"
+msgstr ""
+
+#: ./CRM/Civicase/Upgrader.php
+msgid "Draft"
+msgstr ""
+
+#: ./ang/civicase/activity/actions/services/delete-activity-action.service.js ./ang/civicase/activity/panel/directives/activity-panel.directive.js
+msgid "Delete Activity"
+msgstr ""
+
+#: ./ang/civicase/activity/actions/services/delete-activity-action.service.js
+msgid "Permanently delete %1 activit%2?"
+msgstr ""
+
+#: ./ang/civicase/activity/actions/services/move-copy-activity-action.html
+msgid "Select Case"
+msgstr ""
+
+#: ./ang/civicase/activity/actions/services/move-copy-activity-action.html ./ang/civicase/shared/directives/file-uploader.directive.html
+msgid "Activity Subject"
+msgstr ""
+
+#: ./ang/civicase/activity/actions/services/move-copy-activity-action.service.js
+msgid " %1Activity"
+msgstr ""
+
+#: ./ang/civicase/activity/actions/services/move-copy-activity-action.service.js
+msgid " %1 Activities"
+msgstr ""
+
+#: ./ang/civicase/activity/card/directives/activity-card-big.directive.html ./ang/civicase/activity/card/directives/activity-card-long.directive.html ./ang/civicase/activity/card/directives/activity-card-short.directive.html
+msgid "Loading..."
+msgstr ""
+
+#: ./ang/civicase/activity/card/directives/activity-card-big.directive.html ./ang/civicase/activity/card/directives/activity-card-long.directive.html ./ang/civicase/activity/card/directives/activity-card-short.directive.html
+msgid "Download File"
+msgstr ""
+
+#: ./ang/civicase/activity/card/directives/activity-card-big.directive.html ./ang/civicase/activity/card/directives/activity-card-long.directive.html ./ang/civicase/activity/card/directives/activity-card-short.directive.html ./ang/civicase/activity/panel/directives/activity-panel.directive.html
+msgid "Add star"
+msgstr ""
+
+#: ./ang/civicase/activity/card/directives/activity-card-big.directive.html ./ang/civicase/activity/card/directives/activity-card-long.directive.html ./ang/civicase/activity/card/directives/activity-card-short.directive.html ./ang/civicase/activity/panel/directives/activity-panel.directive.html
+msgid "Unstar"
+msgstr ""
+
+#: ./ang/civicase/activity/card/directives/activity-card-big.directive.html ./ang/civicase/activity/card/directives/activity-card-long.directive.html ./ang/civicase/activity/card/directives/activity-card-short.directive.html
+msgid "Mark incomplete"
+msgstr ""
+
+#: ./ang/civicase/activity/card/directives/activity-card-big.directive.html ./ang/civicase/activity/card/directives/activity-card-long.directive.html ./ang/civicase/activity/card/directives/activity-card-short.directive.html
+msgid "Mark complete"
+msgstr ""
+
+#: ./ang/civicase/activity/card/directives/activity-card-big.directive.html
+msgid "Click on the button below to add a milestone to this case"
+msgstr ""
+
+#: ./ang/civicase/activity/card/directives/activity-card-big.directive.html
+msgid "ADD ACTIVITY"
+msgstr ""
+
+#: ./ang/civicase/activity/card/directives/activity-card-long.directive.html ./ang/civicase/activity/card/directives/activity-card-short.directive.html ./ang/civicase/case/card/directives/case-card-case-list.directive.html ./ang/civicase/case/contact-case-tab/directives/contact-case-tab-case-details.directive.html ./ang/civicase/case/details/directives/case-details-header.directive.html
+msgid "Case ID:"
+msgstr ""
+
+#: ./ang/civicase/activity/card/directives/activity-card-menu-file.html ./ang/civicase/activity/filters/directives/activity-filters.directive.html ./ang/civicase/case/details/file-tab/directives/case-details-file-tab.directive.html ./ang/civicase/case/details/people-tab/directives/case-roles-tab.directive.html ./ang/civicase/case/details/people-tab/directives/other-relationships-tab.directive.html ./ang/civicase/case/list/directives/case-list-table-first-column-header.html ./ang/workflow/directives/workflow-list.directive.html
+msgid "Actions"
+msgstr ""
+
+#: ./ang/civicase/activity/card/directives/activity-card-menu-file.html
+msgid "Download"
+msgstr ""
+
+#: ./ang/civicase/activity/card/directives/activity-card-menu-file.html ./ang/civicase-base/providers/activity-actions.provider.js
+msgid "Delete"
+msgstr ""
+
+#: ./ang/civicase/activity/card/directives/activity-card.directive.js
+msgid "Deleting..."
+msgstr ""
+
+#: ./ang/civicase/activity/card/directives/activity-card.directive.js ./ang/civicase/activity/filters/directives/activity-filters.directive.js
+msgid "Deleted"
+msgstr ""
+
+#: ./ang/civicase/activity/feed/directives/activity-feed.directive.html
+msgid "Click for more"
+msgstr ""
+
+#: ./ang/civicase/activity/feed/directives/activity-feed.directive.html ./ang/civicase/case/details/people-tab/directives/case-roles-tab.directive.html ./ang/civicase/case/details/people-tab/directives/other-relationships-tab.directive.html
+msgid "None Found"
+msgstr ""
+
+#: ./ang/civicase/activity/feed/directives/activity-feed.directive.html
+msgid "Showing all %1"
+msgstr ""
+
+#: ./ang/civicase/activity/feed/directives/activity-feed.directive.js ./ang/civicase/activity/filters/directives/activity-filters-contact.directive.js ./ang/civicase/case/actions/directives/case-actions.directive.js ./ang/civicase/case/actions/services/change-status-case-action.service.js ./ang/civicase/case/actions/services/delete-cases-case-action.service.js ./ang/civicase/case/details/file-tab/directives/file-filter.directive.js ./ang/civicase/case/search/controllers/search.controller.js ./ang/civicase/shared/directives/crm-ui-number-range.directive.js ./ang/civicase/shared/directives/file-uploader.directive.js
+msgid "civicase"
+msgstr ""
+
+#: ./ang/civicase/activity/feed/directives/activity-feed.directive.js
+msgid "Overdue Activities"
+msgstr ""
+
+#: ./ang/civicase/activity/feed/directives/activity-feed.directive.js
+msgid "Future Activities"
+msgstr ""
+
+#: ./ang/civicase/activity/feed/directives/activity-feed.directive.js
+msgid "Past Activities - Prior to Today"
+msgstr ""
+
+#: ./ang/civicase/activity/filters/directives/activity-filters-contact.directive.html
+msgid "Show only activities created by, involving or assigned to me"
+msgstr ""
+
+#: ./ang/civicase/activity/filters/directives/activity-filters-contact.directive.html
+msgid "My Activities"
+msgstr ""
+
+#: ./ang/civicase/activity/filters/directives/activity-filters-contact.directive.html
+msgid "Show only activities created by me but assigned to someone other than me"
+msgstr ""
+
+#: ./ang/civicase/activity/filters/directives/activity-filters-contact.directive.html
+msgid "Delegated"
+msgstr ""
+
+#: ./ang/civicase/activity/filters/directives/activity-filters-contact.directive.html
+msgid "Show all activities regardless of who created them, who they are assigned to or who they are with"
+msgstr ""
+
+#: ./ang/civicase/activity/filters/directives/activity-filters-contact.directive.html
+msgid "All"
+msgstr ""
+
+#: ./ang/civicase/activity/filters/directives/activity-filters.directive.html
+msgid "Show overdue activities first"
+msgstr ""
+
+#: ./ang/civicase/activity/filters/directives/activity-filters.directive.html
+msgid "Show case activities"
+msgstr ""
+
+#: ./ang/civicase/activity/filters/directives/activity-filters.directive.html
+msgid "Select timeline"
+msgstr ""
+
+#: ./ang/civicase/activity/filters/directives/activity-filters.directive.html ./ang/civicase/case/details/file-tab/directives/file-filter.directive.html
+msgid "All Activity Categories"
+msgstr ""
+
+#: ./ang/civicase/activity/filters/directives/activity-filters.directive.html
+msgid "Show only activities with attachments"
+msgstr ""
+
+#: ./ang/civicase/activity/filters/directives/activity-filters.directive.html
+msgid "Show only starred items"
+msgstr ""
+
+#: ./ang/civicase/activity/filters/directives/activity-filters.directive.html
+msgid "Click to view More Filters"
+msgstr ""
+
+#: ./ang/civicase/activity/filters/directives/activity-filters.directive.html
+msgid "Clear Filters"
+msgstr ""
+
+#: ./ang/civicase/activity/filters/directives/activity-filters.directive.html
+msgid "Add Filter"
+msgstr ""
+
+#: ./ang/civicase/activity/filters/directives/activity-filters.directive.js
+msgid "Activity type"
+msgstr ""
+
+#: ./ang/civicase/activity/filters/directives/activity-filters.directive.js ./ang/test/civicase/activity/filters/directives/activity-filters.directive.spec.js
+msgid "With"
+msgstr ""
+
+#: ./ang/civicase/activity/filters/directives/activity-filters.directive.js ./ang/test/civicase/activity/filters/directives/activity-filters.directive.spec.js
+msgid "Assigned to"
+msgstr ""
+
+#: ./ang/civicase/activity/filters/directives/activity-filters.directive.js ./ang/civicase/case/details/file-tab/directives/file-filter.directive.html ./ang/civicase/case/search/directives/search.directive.html ./ang/test/civicase/activity/filters/directives/activity-filters.directive.spec.js
+msgid "Tagged"
+msgstr ""
+
+#: ./ang/civicase/activity/filters/directives/activity-filters.directive.js ./ang/civicase/case/details/file-tab/directives/file-filter.directive.html ./ang/test/civicase/activity/filters/directives/activity-filters.directive.spec.js
+msgid "Contains text"
+msgstr ""
+
+#: ./ang/civicase/activity/filters/directives/activity-filters.directive.js ./ang/test/civicase/activity/filters/directives/activity-filters.directive.spec.js
+msgid "Activity date"
+msgstr ""
+
+#: ./ang/civicase/activity/filters/directives/activity-filters.directive.js
+msgid "Deleted Activities"
+msgstr ""
+
+#: ./ang/civicase/activity/filters/directives/activity-filters.directive.js
+msgid "Normal"
+msgstr ""
+
+#: ./ang/civicase/activity/filters/directives/activity-filters.directive.js
+msgid "Test Activities"
+msgstr ""
+
+#: ./ang/civicase/activity/filters/directives/activity-filters.directive.js
+msgid "Test"
+msgstr ""
+
+#: ./ang/civicase/activity/panel/directives/activity-panel.directive.html
+msgid "Change activity status"
+msgstr ""
+
+#: ./ang/civicase/activity/panel/directives/activity-panel.directive.html ./ang/civicase/case/contact-case-tab/directives/contact-case-tab-case-details.directive.html ./ang/civicase/case/details/directives/case-details-header.directive.html
+msgid "Change status to:"
+msgstr ""
+
+#: ./ang/civicase/activity/panel/directives/activity-panel.directive.html
+msgid "Change activity priority"
+msgstr ""
+
+#: ./ang/civicase/activity/panel/directives/activity-panel.directive.html
+msgid "Change priority to:"
+msgstr ""
+
+#: ./ang/civicase/activity/panel/directives/activity-panel.directive.js
+msgid "Permanently delete this %1 activity?"
+msgstr ""
+
+#: ./ang/civicase/case/actions/directives/case-actions.directive.js
+msgid "Delete Permanently"
+msgstr ""
+
+#: ./ang/civicase/case/actions/directives/case-actions.directive.js
+msgid "Restore from Trash"
+msgstr ""
+
+#: ./ang/civicase/case/actions/services/change-status-case-action.service.js
+msgid "Select New Status"
+msgstr ""
+
+#: ./ang/civicase/case/actions/services/change-status-case-action.service.js
+msgid "Notes"
+msgstr ""
+
+#: ./ang/civicase/case/actions/services/change-status-case-action.service.js
+msgid "Case status changed from %1 to %2"
+msgstr ""
+
+#: ./ang/civicase/case/actions/services/delete-cases-case-action.service.js
+msgid "Permanently delete selected case? This cannot be undone."
+msgstr ""
+
+#: ./ang/civicase/case/actions/services/delete-cases-case-action.service.js
+msgid "Permanently delete %1 cases? This cannot be undone."
+msgstr ""
+
+#: ./ang/civicase/case/actions/services/delete-cases-case-action.service.js
+msgid "Undelete selected case?"
+msgstr ""
+
+#: ./ang/civicase/case/actions/services/delete-cases-case-action.service.js
+msgid "Undelete %1 cases?"
+msgstr ""
+
+#: ./ang/civicase/case/actions/services/delete-cases-case-action.service.js
+msgid "This case and all associated activities will be moved to the trash."
+msgstr ""
+
+#: ./ang/civicase/case/actions/services/delete-cases-case-action.service.js
+msgid "%1 cases and all associated activities will be moved to the trash."
+msgstr ""
+
+#: ./ang/civicase/case/actions/services/email-case-action.service.js ./ang/civicase/case/details/people-tab/directives/case-roles-tab.directive.html ./ang/civicase/case/details/people-tab/directives/case-roles-tab.directive.js ./ang/civicase/case/details/people-tab/directives/other-relationships-tab.directive.html ./ang/civicase/case/details/people-tab/services/people-tab-roles.service.js ./ang/civicase/case/search/directives/search.directive.js ./ang/test/civicase/case/details/people-tab/services/people-tab-roles.service.spec.js
+msgid "Client"
+msgstr ""
+
+#: ./ang/civicase/case/actions/services/email-case-action.service.js ./ang/test/civicase/case/actions/services/email-case-action.service.spec.js
+msgid "Draft Email"
+msgstr ""
+
+#: ./ang/civicase/case/actions/services/email-case-action.service.js
+msgid "Select case role(s)."
+msgstr ""
+
+#: ./ang/civicase/case/actions/services/email-case-action.service.js
+msgid "No case roles are selected"
+msgstr ""
+
+#: ./ang/civicase/case/actions/services/email-case-action.service.js
+msgid "Please add a contact for the selected role(s)."
+msgstr ""
+
+#: ./ang/civicase/case/actions/services/email-case-action.service.js
+msgid "No contacts available for selected role(s)"
+msgstr ""
+
+#: ./ang/civicase/case/actions/services/go-to-webform-case-action.service.js ./ang/test/civicase/case/actions/services/go-to-webforms-case-action.service.spec.js
+msgid "Please refresh this page to view updates from the webform submission."
+msgstr ""
+
+#: ./ang/civicase/case/actions/services/go-to-webform-case-action.service.js ./ang/test/civicase/case/actions/services/go-to-webforms-case-action.service.spec.js
+msgid "Refresh"
+msgstr ""
+
+#: ./ang/civicase/case/actions/services/merge-cases-case-action.service.js
+msgid "Merge all activity records into a single case?"
+msgstr ""
+
+#: ./ang/civicase/case/actions/services/merge-cases-case-action.service.js
+msgid "Warning: selected cases are of different types."
+msgstr ""
+
+#: ./ang/civicase/case/actions/services/merge-cases-case-action.service.js
+msgid "Warning: selected cases belong to different clients."
+msgstr ""
+
+#: ./ang/civicase/case/card/directives/case-card-contact-record.directive.html
+msgid "Case ID :"
+msgstr ""
+
+#: ./ang/civicase/case/card/directives/case-card-other-cases.directive.html
+msgid "Case is for the same client(s)"
+msgstr ""
+
+#: ./ang/civicase/case/contact-case-tab/directives/contact-case-tab-case-details.directive.html
+msgid "Go To Case"
+msgstr ""
+
+#: ./ang/civicase/case/contact-case-tab/directives/contact-case-tab-case-details.directive.html ./ang/civicase/case/details/directives/case-details-header.directive.html
+msgid "Change case status"
+msgstr ""
+
+#: ./ang/civicase/case/contact-case-tab/directives/contact-case-tab-case-details.directive.html ./ang/civicase/case/details/summary-tab/directives/case-summary.directive.html
+msgid "This case doesn't currently have a description. Click here to add now."
+msgstr ""
+
+#: ./ang/civicase/case/contact-case-tab/directives/contact-case-tab-case-details.directive.html ./ang/civicase/case/details/directives/case-details-header.directive.html ./ang/civicase-base/replaceable-db-strings/activity-types.js
+msgid "Change Case Type"
+msgstr ""
+
+#: ./ang/civicase/case/contact-case-tab/directives/contact-case-tab-case-details.directive.html ./ang/civicase/case/details/directives/case-details-header.directive.html
+msgid "Ongoing"
+msgstr ""
+
+#: ./ang/civicase/case/contact-case-tab/directives/contact-case-tab-case-details.directive.html ./ang/civicase/case/details/directives/case-details-header.directive.html
+msgid "Case Manager:"
+msgstr ""
+
+#: ./ang/civicase/case/contact-case-tab/directives/contact-case-tab-case-details.directive.html ./ang/civicase/case/details/configs/add-case-details-tabs.config.js ./ang/test/civicase/case/details/configs/add-case-details-tabs.config.spec.js
+msgid "Summary"
+msgstr ""
+
+#: ./ang/civicase/case/contact-case-tab/directives/contact-case-tab-case-details.directive.html
+msgid "Last Activity"
+msgstr ""
+
+#: ./ang/civicase/case/contact-case-tab/directives/contact-case-tab-case-details.directive.html
+msgid "Contact Role"
+msgstr ""
+
+#: ./ang/civicase/case/contact-case-tab/directives/contact-case-tab-case-details.directive.html
+msgid "Last Modified"
+msgstr ""
+
+#: ./ang/civicase/case/contact-case-tab/directives/contact-case-tab-case-list.directive.html
+msgid "Load More Cases"
+msgstr ""
+
+#: ./ang/civicase/case/details/configs/add-case-details-tabs.config.js ./ang/civicase/dashboard/directives/dashboard.directive.html ./ang/test/civicase/case/details/configs/add-case-details-tabs.config.spec.js
+msgid "Activities"
+msgstr ""
+
+#: ./ang/civicase/case/details/configs/add-case-details-tabs.config.js ./ang/test/civicase/case/details/configs/add-case-details-tabs.config.spec.js
+msgid "People"
+msgstr ""
+
+#: ./ang/civicase/case/details/configs/add-case-details-tabs.config.js ./ang/test/civicase/case/details/configs/add-case-details-tabs.config.spec.js
+msgid "Files"
+msgstr ""
+
+#: ./ang/civicase/case/details/configs/add-case-details-tabs.config.js ./ang/test/civicase/case/details/configs/add-case-details-tabs.config.spec.js
+msgid "Linked Cases"
+msgstr ""
+
+#: ./ang/civicase/case/details/directives/case-details-header.directive.html
+msgid "Case is in Trash"
+msgstr ""
+
+#: ./ang/civicase/case/details/directives/case-details-tabs.directive.html
+msgid "Current"
+msgstr ""
+
+#: ./ang/civicase/case/details/directives/case-details-tabs.directive.html
+msgid "Add new"
+msgstr ""
+
+#: ./ang/civicase/case/details/directives/case-details-tabs.directive.html
+msgid "Create email"
+msgstr ""
+
+#: ./ang/civicase/case/details/directives/case-details-tabs.directive.html
+msgid "Create PDF letter"
+msgstr ""
+
+#: ./ang/civicase/case/details/directives/case-details-tabs.directive.html
+msgid "Add activity"
+msgstr ""
+
+#: ./ang/civicase/case/details/directives/case-details-tabs.directive.html
+msgid "Add timeline"
+msgstr ""
+
+#: ./ang/civicase/case/details/directives/case-details-tabs.directive.html
+msgid "Add all activities from %1 to this case?"
+msgstr ""
+
+#: ./ang/civicase/case/details/directives/case-details.directive.js ./ang/test/civicase/case/details/directives/case-details.directive.spec.js
+msgid "Details"
+msgstr ""
+
+#: ./ang/civicase/case/details/file-tab/directives/file-filter.directive.html
+msgid "File Types..."
+msgstr ""
+
+#: ./ang/civicase/case/details/file-tab/directives/file-list.directive.html
+msgid "No files found"
+msgstr ""
+
+#: ./ang/civicase/case/details/linked-cases-tab/directives/case-details-linked-cases-tab--placeholder.directive.html ./ang/civicase/case/details/linked-cases-tab/directives/case-details-linked-cases-tab.directive.html ./ang/civicase-base/replaceable-db-strings/activity-types.js ./ang/civicase.ang.php
+msgid "Link Cases"
+msgstr ""
+
+#: ./ang/civicase/case/details/linked-cases-tab/directives/case-details-linked-cases-tab--placeholder.directive.html ./ang/civicase/case/details/summary-tab/directives/case-summary-other-cases.directive.html
+msgid "Other Cases"
+msgstr ""
+
+#: ./ang/civicase/case/details/linked-cases-tab/directives/case-details-linked-cases-tab.directive.html
+msgid "No linked cases"
+msgstr ""
+
+#: ./ang/civicase/case/details/linked-cases-tab/directives/case-details-linked-cases-tab.directive.html
+msgid "Click the button below to create a new link for this case"
+msgstr ""
+
+#: ./ang/civicase/case/details/people-tab/directives/case-details-people-tab.directive.html
+msgid "Case Roles"
+msgstr ""
+
+#: ./ang/civicase/case/details/people-tab/directives/case-details-people-tab.directive.html
+msgid "Other Relationships"
+msgstr ""
+
+#: ./ang/civicase/case/details/people-tab/directives/case-roles-tab.directive.html
+msgid "Add Case Role"
+msgstr ""
+
+#: ./ang/civicase/case/details/people-tab/directives/case-roles-tab.directive.html ./ang/civicase/case/details/people-tab/directives/other-relationships-tab.directive.html
+msgid "%1 Contacts"
+msgstr ""
+
+#: ./ang/civicase/case/details/people-tab/directives/case-roles-tab.directive.html ./ang/civicase/case/details/people-tab/directives/other-relationships-tab.directive.html
+msgid "Select Records:"
+msgstr ""
+
+#: ./ang/civicase/case/details/people-tab/directives/case-roles-tab.directive.html
+msgid "All %1 records"
+msgstr ""
+
+#: ./ang/civicase/case/details/people-tab/directives/case-roles-tab.directive.html
+msgid "Display previous case role assignments"
+msgstr ""
+
+#: ./ang/civicase/case/details/people-tab/directives/case-roles-tab.directive.html
+msgid "All Roles"
+msgstr ""
+
+#: ./ang/civicase/case/details/people-tab/directives/case-roles-tab.directive.html
+msgid "Role"
+msgstr ""
+
+#: ./ang/civicase/case/details/people-tab/directives/case-roles-tab.directive.html ./ang/civicase/case/details/people-tab/directives/other-relationships-tab.directive.html ./ang/civicase/shared/directives/file-uploader.directive.html
+msgid "Name"
+msgstr ""
+
+#: ./ang/civicase/case/details/people-tab/directives/case-roles-tab.directive.html
+msgid "Start date"
+msgstr ""
+
+#: ./ang/civicase/case/details/people-tab/directives/case-roles-tab.directive.html
+msgid "End date"
+msgstr ""
+
+#: ./ang/civicase/case/details/people-tab/directives/case-roles-tab.directive.html
+msgid "Unassigned"
+msgstr ""
+
+#: ./ang/civicase/case/details/people-tab/directives/case-roles-tab.directive.html
+msgid "Reassign %1"
+msgstr ""
+
+#: ./ang/civicase/case/details/people-tab/directives/case-roles-tab.directive.html
+msgid "Add Another %1"
+msgstr ""
+
+#: ./ang/civicase/case/details/people-tab/directives/case-roles-tab.directive.html ./ang/civicase/case/details/people-tab/directives/case-roles-tab.directive.js
+msgid "Remove %1"
+msgstr ""
+
+#: ./ang/civicase/case/details/people-tab/directives/case-roles-tab.directive.html ./ang/civicase/case/details/people-tab/directives/other-relationships-tab.directive.html
+msgid "Send Email"
+msgstr ""
+
+#: ./ang/civicase/case/details/people-tab/directives/case-roles-tab.directive.html ./ang/civicase/case/details/people-tab/directives/other-relationships-tab.directive.html ./ang/civicase.ang.php
+msgid "Print/Merge Document"
+msgstr ""
+
+#: ./ang/civicase/case/details/people-tab/directives/case-roles-tab.directive.html ./ang/civicase/case/details/people-tab/directives/other-relationships-tab.directive.html
+msgid "Page %1 of %2"
+msgstr ""
+
+#: ./ang/civicase/case/details/people-tab/directives/case-roles-tab.directive.js
+msgid "Replace %1"
+msgstr ""
+
+#: ./ang/civicase/case/details/people-tab/directives/case-roles-tab.directive.js
+msgid "Remove %1 as %2?"
+msgstr ""
+
+#: ./ang/civicase/case/details/people-tab/directives/case-roles-tab.directive.js
+msgid "%1 removed as %2"
+msgstr ""
+
+#: ./ang/civicase/case/details/people-tab/directives/case-roles-tab.directive.js
+msgid "Add Client"
+msgstr ""
+
+#: ./ang/civicase/case/details/people-tab/directives/case-roles-tab.directive.js
+msgid "Add %1"
+msgstr ""
+
+#: ./ang/civicase/case/details/people-tab/directives/case-roles-tab.directive.js
+msgid "%1 replaced %2 as %3"
+msgstr ""
+
+#: ./ang/civicase/case/details/people-tab/directives/case-roles-tab.directive.js
+msgid "%1 added as Client"
+msgstr ""
+
+#: ./ang/civicase/case/details/people-tab/directives/case-roles-tab.directive.js
+msgid "Continue"
+msgstr ""
+
+#: ./ang/civicase/case/details/people-tab/directives/contact-prompt-dialog.html
+msgid "Select Contact"
+msgstr ""
+
+#: ./ang/civicase/case/details/people-tab/directives/other-relationships-tab.directive.html
+msgid "Relationship"
+msgstr ""
+
+#: ./ang/civicase/case/details/people-tab/directives/other-relationships-tab.directive.html
+msgid "All %1 Contacts"
+msgstr ""
+
+#: ./ang/civicase/case/details/people-tab/directives/other-relationships-tab.directive.html
+msgid "%1 Selected"
+msgstr ""
+
+#: ./ang/civicase/case/details/people-tab/directives/other-relationships-tab.directive.html
+msgid "Edit Relationship"
+msgstr ""
+
+#: ./ang/civicase/case/details/people-tab/messages.constants.js
+msgid "Case clients cannot be selected for a case role. Please select another contact."
+msgstr ""
+
+#: ./ang/civicase/case/details/people-tab/messages.constants.js
+msgid "Case clients cannot be same as other case roles. Please select another contact."
+msgstr ""
+
+#: ./ang/civicase/case/details/people-tab/messages.constants.js
+msgid "Please select a contact."
+msgstr ""
+
+#: ./ang/civicase/case/details/people-tab/messages.constants.js
+msgid "End date cannot be before start date of the relationship."
+msgstr ""
+
+#: ./ang/civicase/case/details/people-tab/messages.constants.js
+msgid "Reassignment date cannot be before start date of the relationship."
+msgstr ""
+
+#: ./ang/civicase/case/details/people-tab/services/people-tab-roles.service.js
+msgid "Case Manager."
+msgstr ""
+
+#: ./ang/civicase/case/details/summary-tab/directives/case-summary-other-cases.directive.html ./ang/civicase/dashboard/directives/dashboard-tab.directive.html ./ang/civicase/dashboard/directives/dashboard-tab.directive.js
+msgid "cases"
+msgstr ""
+
+#: ./ang/civicase/case/details/summary-tab/directives/case-summary-recent-communications.directive.html
+msgid "Recent Communications"
+msgstr ""
+
+#: ./ang/civicase/case/details/summary-tab/directives/case-summary-recent-communications.directive.html ./ang/civicase/case/details/summary-tab/directives/case-summary-tasks.directive.html
+msgid "View All"
+msgstr ""
+
+#: ./ang/civicase/case/details/summary-tab/directives/case-summary-recent-communications.directive.html
+msgid "Click on the button below to add a\n      communication to this case"
+msgstr ""
+
+#: ./ang/civicase/case/details/summary-tab/directives/case-summary-recent-communications.directive.html
+msgid "Create new communication"
+msgstr ""
+
+#: ./ang/civicase/case/details/summary-tab/directives/case-summary-tasks.directive.html
+msgid "Tasks"
+msgstr ""
+
+#: ./ang/civicase/case/details/summary-tab/directives/case-summary-tasks.directive.html
+msgid "Click on the button below to add a task to this case"
+msgstr ""
+
+#: ./ang/civicase/case/details/summary-tab/directives/case-summary-tasks.directive.html
+msgid "Create new tasks"
+msgstr ""
+
+#: ./ang/civicase/case/details/summary-tab/directives/case-summary.directive.html
+msgid "Case last updated: "
+msgstr ""
+
+#: ./ang/civicase/case/list/directives/case-list-table-first-column-header.html
+msgid "Case Client"
+msgstr ""
+
+#: ./ang/civicase/case/list/directives/case-list-table-first-column-header.html ./ang/civicase/case/search/directives/search.directive.js
+msgid "End Date"
+msgstr ""
+
+#: ./ang/civicase/case/list/directives/case-list-table-first-column-header.html
+msgid "Date Created"
+msgstr ""
+
+#: ./ang/civicase/case/list/directives/case-list-table-first-column-header.html
+msgid "Next Milestone"
+msgstr ""
+
+#: ./ang/civicase/case/list/directives/case-list-table-first-column-header.html
+msgid "Next Task"
+msgstr ""
+
+#: ./ang/civicase/case/list/directives/case-list-table-first-column-header.html
+msgid "Next Communication"
+msgstr ""
+
+#: ./ang/civicase/case/list/directives/case-list-table.directive.html
+msgid "No cases found matching the search criteria."
+msgstr ""
+
+#: ./ang/civicase/case/search/directives/search.directive.html
+msgid "Case Type: Any"
+msgstr ""
+
+#: ./ang/civicase/case/search/directives/search.directive.html
+msgid "Status: All cases"
+msgstr ""
+
+#: ./ang/civicase/case/search/directives/search.directive.html
+msgid "Status: All open cases"
+msgstr ""
+
+#: ./ang/civicase/case/search/directives/search.directive.html
+msgid "Relationship Type: All"
+msgstr ""
+
+#: ./ang/civicase/case/search/directives/search.directive.html
+msgid "Edit Search"
+msgstr ""
+
+#: ./ang/civicase/case/search/directives/search.directive.html
+msgid "Other Criteria"
+msgstr ""
+
+#: ./ang/civicase/case/search/directives/search.directive.html
+msgid "Search"
+msgstr ""
+
+#: ./ang/civicase/case/search/directives/search.directive.html ./ang/civicase/case/search/directives/search.directive.js
+msgid "Contact Search"
+msgstr ""
+
+#: ./ang/civicase/case/search/directives/search.directive.html ./ang/civicase/case/search/directives/search.directive.js
+msgid "Deleted Cases"
+msgstr ""
+
+#: ./ang/civicase/case/search/directives/search.directive.html
+msgid "Only Show Disabled Cases"
+msgstr ""
+
+#: ./ang/civicase/case/search/directives/search.directive.html
+msgid "Clear Search"
+msgstr ""
+
+#: ./ang/civicase/case/search/directives/search.directive.js ./ang/civicase/dashboard/directives/dashboard.directive.js ./ang/test/civicase/case/search/directives/search.directive.spec.js
+msgid "My Cases"
+msgstr ""
+
+#: ./ang/civicase/case/search/directives/search.directive.js ./ang/civicase/dashboard/directives/dashboard.directive.js ./ang/test/civicase/case/search/directives/search.directive.spec.js
+msgid "Cases I am involved in"
+msgstr ""
+
+#: ./ang/civicase/case/search/directives/search.directive.js ./ang/civicase/dashboard/directives/dashboard.directive.js ./ang/test/civicase/case/search/directives/search.directive.spec.js
+msgid "All Cases"
+msgstr ""
+
+#: ./ang/civicase/case/search/directives/search.directive.js
+msgid "All Case Roles"
+msgstr ""
+
+#: ./ang/civicase/case/search/directives/search.directive.js
+msgid "Me"
+msgstr ""
+
+#: ./ang/civicase/case/search/directives/search.directive.js
+msgid "%1 selected"
+msgstr ""
+
+#: ./ang/civicase/case/search/directives/search.directive.js
+msgid "Case Search Results"
+msgstr ""
+
+#: ./ang/civicase/case/search/directives/search.directive.js
+msgid "All Open"
+msgstr ""
+
+#: ./ang/civicase/contact/directives/contact-card.directive.html
+msgid "View Contact"
+msgstr ""
+
+#: ./ang/civicase/contact/directives/contact-card.directive.html
+msgid "Click the Activity to view all Contacts."
+msgstr ""
+
+#: ./ang/civicase/contact-case-tab/directives/contact-case-tab.directive.html
+msgid "Related cases to the user"
+msgstr ""
+
+#: ./ang/civicase/contact-case-tab/directives/contact-case-tab.directive.html
+msgid "Add case"
+msgstr ""
+
+#: ./ang/civicase/contact-case-tab/directives/contact-case-tab.directive.html
+msgid "This contact has no cases"
+msgstr ""
+
+#: ./ang/civicase/contact-case-tab/directives/contact-case-tab.directive.html
+msgid "Click the button below to create a new case for this contact"
+msgstr ""
+
+#: ./ang/civicase/contact-case-tab/directives/contact-case-tab.directive.html
+msgid "Add new case"
+msgstr ""
+
+#: ./ang/civicase/contact-case-tab/directives/contact-case-tab.directive.js
+msgid "Open Cases"
+msgstr ""
+
+#: ./ang/civicase/contact-case-tab/directives/contact-case-tab.directive.js
+msgid "Resolved cases"
+msgstr ""
+
+#: ./ang/civicase/contact-case-tab/directives/contact-case-tab.directive.js
+msgid "Other cases for this contact"
+msgstr ""
+
+#: ./ang/civicase/dashboard/directives/add-case-dashboard-action-button.html
+msgid "Add Case"
+msgstr ""
+
+#: ./ang/civicase/dashboard/directives/dashboard.directive.html
+msgid "CiviCase Dashboard - My Cases"
+msgstr ""
+
+#: ./ang/civicase/dashboard/directives/dashboard.directive.html
+msgid "CiviCase Dashboard - All Cases"
+msgstr ""
+
+#: ./ang/civicase/shared/directives/crm-ui-number-range.directive.js
+msgid "From"
+msgstr ""
+
+#: ./ang/civicase/shared/directives/crm-ui-number-range.directive.js
+msgid "To"
+msgstr ""
+
+#: ./ang/civicase/shared/directives/file-uploader.directive.html
+msgid "Drop file here"
+msgstr ""
+
+#: ./ang/civicase/shared/directives/file-uploader.directive.html
+msgid "or click here to browse"
+msgstr ""
+
+#: ./ang/civicase/shared/directives/file-uploader.directive.html
+msgid "Size"
+msgstr ""
+
+#: ./ang/civicase/shared/directives/file-uploader.directive.html
+msgid "Remove"
+msgstr ""
+
+#: ./ang/civicase/shared/directives/file-uploader.directive.html
+msgid "File Description"
+msgstr ""
+
+#: ./ang/civicase/shared/directives/file-uploader.directive.html
+msgid "Add file description"
+msgstr ""
+
+#: ./ang/civicase/shared/directives/file-uploader.directive.html
+msgid "Upload File(s)"
+msgstr ""
+
+#: ./ang/civicase/shared/directives/file-uploader.directive.js
+msgid "Unknown error"
+msgstr ""
+
+#: ./ang/civicase/shared/directives/file-uploader.directive.js
+msgid "Attachment failed"
+msgstr ""
+
+#: ./ang/civicase/shared/directives/file-uploader.directive.js
+msgid "Uploading..."
+msgstr ""
+
+#: ./ang/civicase/shared/directives/file-uploader.directive.js
+msgid "Uploaded"
+msgstr ""
+
+#: ./ang/civicase-base/decorators/root-scope.decorator.js
+msgid "string"
+msgstr ""
+
+#: ./ang/civicase-base/providers/activity-actions.provider.js
+msgid "Resume Draft"
+msgstr ""
+
+#: ./ang/civicase-base/providers/activity-actions.provider.js
+msgid "View in Feed"
+msgstr ""
+
+#: ./ang/civicase-base/providers/activity-actions.provider.js ./ang/workflow/action-links/directives/workflow-list-edit-action.html
+msgid "Edit"
+msgstr ""
+
+#: ./ang/civicase-base/providers/activity-actions.provider.js
+msgid "Print Report"
+msgstr ""
+
+#: ./ang/civicase-base/providers/activity-actions.provider.js
+msgid "Move to Case"
+msgstr ""
+
+#: ./ang/civicase-base/providers/activity-actions.provider.js
+msgid "Copy to Case"
+msgstr ""
+
+#: ./ang/civicase-base/providers/activity-actions.provider.js
+msgid "Tag - add to activities"
+msgstr ""
+
+#: ./ang/civicase-base/providers/activity-actions.provider.js
+msgid "Tag - remove from activities"
+msgstr ""
+
+#: ./ang/civicase-base/providers/activity-actions.provider.js
+msgid "Download All"
+msgstr ""
+
+#: ./ang/civicase-base/replaceable-db-strings/activity-types.js
+msgid "Open Case"
+msgstr ""
+
+#: ./ang/civicase-base/replaceable-db-strings/activity-types.js ./ang/civicase.ang.php
+msgid "Change Case Status"
+msgstr ""
+
+#: ./ang/civicase-base/replaceable-db-strings/activity-types.js
+msgid "Change Case Subject"
+msgstr ""
+
+#: ./ang/civicase-base/replaceable-db-strings/activity-types.js
+msgid "Change Case Start Date"
+msgstr ""
+
+#: ./ang/civicase-base/replaceable-db-strings/activity-types.js
+msgid "Assign Case Role"
+msgstr ""
+
+#: ./ang/civicase-base/replaceable-db-strings/activity-types.js
+msgid "Remove Case Role"
+msgstr ""
+
+#: ./ang/civicase-base/replaceable-db-strings/activity-types.js
+msgid "Merge Case"
+msgstr ""
+
+#: ./ang/civicase-base/replaceable-db-strings/activity-types.js
+msgid "Reassigned Case"
+msgstr ""
+
+#: ./ang/civicase-base/replaceable-db-strings/activity-types.js
+msgid "Change Case Tags"
+msgstr ""
+
+#: ./ang/civicase-base/replaceable-db-strings/activity-types.js
+msgid "Add Client To Case"
+msgstr ""
+
+#: ./ang/civicase.ang.php
+msgid "Edit Tags"
+msgstr ""
+
+#: ./ang/civicase.ang.php
+msgid "Print Case"
+msgstr ""
+
+#: ./ang/civicase.ang.php
+msgid "Email - send now"
+msgstr ""
+
+#: ./ang/civicase.ang.php
+msgid "Link 2 Cases"
+msgstr ""
+
+#: ./ang/civicase.ang.php
+msgid "Merge 2 Cases"
+msgstr ""
+
+#: ./ang/civicase.ang.php
+msgid "Lock Case"
+msgstr ""
+
+#: ./ang/civicase.ang.php
+msgid "Delete Case"
+msgstr ""
+
+#: ./ang/civicase.ang.php
+msgid "Export Cases"
+msgstr ""
+
+#: ./ang/civicase.ang.php
+msgid "Webforms"
+msgstr ""
+
+#: ./ang/test/civicase/case/details/directives/case-details.directive.spec.js
+msgid "Custom Tab"
+msgstr ""
+
+#: ./ang/workflow/action-links/controllers/workflow-duplicate.controller.js
+msgid "This title is already in use. Please choose another"
+msgstr ""
+
+#: ./ang/workflow/action-links/controllers/workflow-duplicate.controller.js
+msgid "Duplicating Workflow..."
+msgstr ""
+
+#: ./ang/workflow/action-links/controllers/workflow-duplicate.controller.js
+msgid "Duplicate created successfully"
+msgstr ""
+
+#: ./ang/workflow/action-links/directives/workflow-list-duplicate-action.html
+msgid "Duplicate"
+msgstr ""
+
+#: ./ang/workflow/configs/workflow-list-columns.config.js
+msgid "Title"
+msgstr ""
+
+#: ./ang/workflow/configs/workflow-list-columns.config.js
+msgid "Enabled?"
+msgstr ""
+
+#: ./ang/workflow/directives/workflow-list.directive.html
+msgid "Manage %1 types"
+msgstr ""
+
+#: ./ang/workflow/directives/workflow-list.directive.html
+msgid "New %1 type"
+msgstr ""
+
+#: ./ang/workflow/directives/workflow-list.directive.html
+msgid "Filter"
+msgstr ""
+
+#: ./ang/workflow/directives/workflow-list.directive.html
+msgid "No %1 types are available."
+msgstr ""
+
+#: ./settings/CiviCase.setting.php
+msgid "Allow cases to be locked"
+msgstr ""
+
+#: ./settings/CiviCase.setting.php
+msgid "This will allow cases to be locked for certain contacts."
+msgstr ""
+
+#: ./settings/CiviCase.setting.php
+msgid "Show \"Coming Soon\" section on Case Summary"
+msgstr ""
+
+#: ./settings/CiviCase.setting.php
+msgid "This configuration controls the visibility of the coming soon section on the case summary screen which has Next Milestone, Next Activity and the Case Calendar."
+msgstr ""
+
+#: ./settings/CiviCase.setting.php
+msgid "Allow linked cases tab"
+msgstr ""
+
+#: ./settings/CiviCase.setting.php
+msgid "This will allow linked cases to be viewed on a separate tab."
+msgstr ""
+
+#: ./settings/CiviCase.setting.php
+msgid "Show Webforms list in a separate dropdown"
+msgstr ""
+
+#: ./settings/CiviCase.setting.php
+msgid "This will show the webforms list in a separate dropdown."
+msgstr ""
+
+#: ./settings/CiviCase.setting.php
+msgid "Label for the Webforms dropdown button"
+msgstr ""
+
+#: ./settings/CiviCase.setting.php
+msgid "Show full name on Case activity feed"
+msgstr ""
+
+#: ./settings/CiviCase.setting.php
+msgid "This configuration determines whether or not the full name of the activity creator is displayed in the case activity feed."
+msgstr ""
+
+#: ./settings/CiviCase.setting.php
+msgid "Include activities I'm involved in"
+msgstr ""
+
+#: ./settings/CiviCase.setting.php
+msgid "Cases I'm involved in filter will include 'activities created by me' and 'activities assigned to me'."
+msgstr ""
+
+#: ./settings/CiviCase.setting.php
+msgid "One active case role"
+msgstr ""
+
+#: ./settings/CiviCase.setting.php
+msgid "This setting will only allow one active instance of each case role for all case types."
+msgstr ""
+
+#: ./settings/CiviCase.setting.php
+msgid "Limit recipients field on bulk email"
+msgstr ""
+
+#: ./settings/CiviCase.setting.php
+msgid "This setting will only allow selected contacts to be added to recipient and Cc/Bcc fields in bulk email."
+msgstr ""
+
+#: ./settings/CiviCase.setting.php
+msgid "Restrict email recipients to contacts involved with the case"
+msgstr ""
+
+#: ./settings/CiviCase.setting.php
+msgid "When this setting is enabled users will only be able to add existing contacts who are either the case clients or people currently involved with the case as recipients of new emails."
+msgstr ""
+

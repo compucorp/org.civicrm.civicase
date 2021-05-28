@@ -57,7 +57,7 @@ class CRM_Civicase_Hook_BuildForm_CaseCategoryFormLabelTranslationForChangeCase 
    *   For Elements array.
    */
   private function translateLabel($element) {
-    $label = ts($element->getLabel());
+    $label = $element->getLabel();
     $element->setLabel($label);
   }
 
