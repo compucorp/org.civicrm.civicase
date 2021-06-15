@@ -1,5 +1,7 @@
 <?php
 
+use CRM_Civicase_ExtensionUtil as E;
+
 /**
  * Add current user tokens.
  */
@@ -50,11 +52,11 @@ class CRM_Civicase_Hook_Tokens_AddContactTokens {
   public function run(array &$tokens) {
     foreach ($this->contactFieldsService->get() as $field) {
       $tokens[self::TOKEN_KEY]['current_user.contact_' . $field] =
-        ts('Current User ' . ucwords(str_replace("_", " ", $field)));
+        E::ts('Current User ') . ucwords(str_replace("_", " ", $field));
     }
     foreach ($this->contactCustomFieldsService->get() as $key => $field) {
       $tokens[self::TOKEN_KEY]['current_user.contact_' . $key] =
-        ts('Current User ' . ucwords(str_replace("_", " ", $field)));
+        E::ts('Current User ') . ucwords(str_replace("_", " ", $field));
     }
   }
 

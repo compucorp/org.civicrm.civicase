@@ -5,7 +5,7 @@ use CRM_Case_BAO_CaseType as CaseType;
 use CRM_Civicase_Helper_CaseCategory as CaseCategoryHelper;
 
 /**
- * Class CRM_Civicase_Hook_Permissions_CaseCategory.
+ * Case Category Permissions hook.
  */
 class CRM_Civicase_Hook_Permissions_CaseCategory {
 
@@ -27,6 +27,7 @@ class CRM_Civicase_Hook_Permissions_CaseCategory {
    * CRM_Civicase_Hook_Permissions_CaseCategory constructor.
    *
    * @param array $permissions
+   *   Permissions.
    */
   public function __construct(array &$permissions) {
     $this->permissions = &$permissions;
@@ -55,7 +56,7 @@ class CRM_Civicase_Hook_Permissions_CaseCategory {
     $caseCategoryPermissions = $this->permissionService->get();
     $this->permissions[$caseCategoryPermissions['BASIC_CASE_CATEGORY_INFO']['name']] = [
       $caseCategoryPermissions['BASIC_CASE_CATEGORY_INFO']['label'],
-      ts($caseCategoryPermissions['BASIC_CASE_CATEGORY_INFO']['description']),
+      $caseCategoryPermissions['BASIC_CASE_CATEGORY_INFO']['description'],
     ];
   }
 
@@ -76,7 +77,7 @@ class CRM_Civicase_Hook_Permissions_CaseCategory {
       foreach ($caseCategoryPermissions as $caseCategoryPermission) {
         $this->permissions[$caseCategoryPermission['name']] = [
           $caseCategoryPermission['label'],
-          ts($caseCategoryPermission['description']),
+          $caseCategoryPermission['description'],
         ];
       }
     }

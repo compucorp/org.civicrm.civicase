@@ -52,7 +52,7 @@ class CRM_Civicase_Hook_BuildForm_CaseCategoryFormLabelTranslationForNewCase {
    */
   private function translateLabel(array $elements) {
     foreach ($elements as $element) {
-      $label = ts($element->getLabel());
+      $label = $element->getLabel();
       $element->setLabel($label);
     }
   }

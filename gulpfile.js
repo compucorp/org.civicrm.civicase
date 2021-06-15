@@ -18,6 +18,7 @@ var sassTask = require('./gulp-tasks/sass.js');
 var sassSyncTask = require('./gulp-tasks/sass-sync.js');
 var testTask = require('./gulp-tasks/karma-unit-test.js');
 var watchTask = require('./gulp-tasks/watch.js');
+var generateTranslationsTask = require('./gulp-tasks/generate-translations.js');
 
 /**
  * Updates and sync the scssRoot paths
@@ -44,3 +45,5 @@ gulp.task('watch', watchTask);
  * Runs sass and test task
  */
 gulp.task('default', gulp.series('sass', 'test'));
+
+gulp.task('generate-translations', generateTranslationsTask);

@@ -47,7 +47,7 @@ class CRM_Civicase_Hook_PreProcess_CaseCategoryWordReplacementsForNewCase {
     // We need to translate this manually as Civi does not the page title
     // through the ts function.
     $pageTitle = $form->get_template_vars('activityType');
-    CRM_Utils_System::setTitle(ts($pageTitle));
+    CRM_Utils_System::setTitle($pageTitle);
     CaseCategoryHelper::updateBreadcrumbs($caseCategoryId);
   }
 
