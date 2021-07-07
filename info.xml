@@ -18,7 +18,7 @@
   <version>2.1.0</version>
   <develStage>stable</develStage>
   <compatibility>
-    <ver>5.35</ver>
+    <ver>5.37</ver>
   </compatibility>
   <comments></comments>
   <classloader>
