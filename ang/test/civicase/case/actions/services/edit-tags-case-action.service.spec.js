@@ -49,8 +49,8 @@
       it('fetches the tags and shows on the UI', () => {
         expect(civicaseCrmApiMock).toHaveBeenCalledWith('Tag', 'get', {
           sequential: 1,
-          used_for: { LIKE: '%civicrm_case%' },
-          options: { limit: 0 }
+          used_for: 'Cases',
+          options: { limit: 0, sort: 'name ASC' }
         });
       });
 

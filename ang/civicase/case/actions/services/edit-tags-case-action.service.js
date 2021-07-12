@@ -8,8 +8,9 @@
    * @param {Function} ts translation service
    * @param {object} dialogService dialog service
    * @param {object} civicaseCrmApi service to use civicrm api
+   * @param {Function} isTruthy service to check if value is truthy
    */
-  function EditTagsCaseAction (ts, dialogService, civicaseCrmApi) {
+  function EditTagsCaseAction (ts, dialogService, civicaseCrmApi, isTruthy) {
     /**
      * Click event handler for the Action
      *
@@ -82,10 +83,22 @@
     function getTags () {
       return civicaseCrmApi('Tag', 'get', {
         sequential: 1,
-        used_for: { LIKE: '%civicrm_case%' },
-        options: { limit: 0 }
+        used_for: 'Cases',
+        options: { limit: 0, sort: 'name ASC' }
       }).then(function (data) {
-        return data.values;
+        return filterTags(data.values);
+      });
+    }
+
+    /**
+     * Removes tags that are not selectable from the array.
+     *
+     * @param {Array} tags tags
+     * @returns {Array} filtered tags array.
+     */
+    function filterTags (tags) {
+      return _.filter(tags, function (tag) {
+        return !(!isTruthy(tag.is_tagset) && !isTruthy(tag.is_selectable));
       });
     }
 
