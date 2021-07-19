@@ -104,15 +104,16 @@
 
       describe('when loading a subset of case types', () => {
         beforeEach(() => {
-          const sampleCaseStatuses = _.sample(CaseStatus.getAll(), 2);
           const sampleCaseTypes = _.sample(CaseType.getAll(), 3);
 
-          sampleCaseTypes[0].definition.statuses = [sampleCaseStatuses[0].name];
-          sampleCaseTypes[1].definition.statuses = [sampleCaseStatuses[1].name];
-          sampleCaseTypes[2].definition.statuses = [sampleCaseStatuses[1].name];
+          sampleCaseTypes[0].definition.statuses = _.map(CaseStatus.getAll(), 'name');
+          sampleCaseTypes[1].definition.statuses = _.map(CaseStatus.getAll(), 'name');
+          sampleCaseTypes[2].definition.statuses = _.map(CaseStatus.getAll(), 'name');
 
-          expectedCaseStatuses = _.chain(sampleCaseStatuses)
-            .sortBy('weight')
+          expectedCaseStatuses = _.chain(CaseStatus.getAll())
+            .sortBy(function (status) {
+              return parseInt(status.weight, 10);
+            })
             .value();
 
           CaseManagementWorkflow.getWorkflowsListForCaseOverview.and.returnValue($q.resolve({
@@ -138,7 +139,9 @@
           delete caseType.definition.statuses;
 
           expectedCaseStatuses = _.chain(allCaseStatuses)
-            .sortBy('weight')
+            .sortBy(function (status) {
+              return parseInt(status.weight, 10);
+            })
             .value();
 
           CaseManagementWorkflow.getWorkflowsListForCaseOverview.and.returnValue($q.resolve({

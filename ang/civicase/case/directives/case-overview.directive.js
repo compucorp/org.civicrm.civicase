@@ -98,10 +98,9 @@
       getCaseTypes()
         .then(function () {
           caseStatusNames = getCaseStatusNamesBelongingToCaseTypes($scope.caseTypes);
-          $scope.caseStatuses = _.sortBy(
-            getStatusesByName(caseStatusNames),
-            'weight'
-          );
+          $scope.caseStatuses = _.sortBy(getStatusesByName(caseStatusNames), function (status) {
+            return parseInt(status.weight, 10);
+          });
           $scope.showBreakdown = $scope.caseTypes.length <=
             MAXIMUM_CASE_TYPES_TO_DISPLAY_BREAKDOWN;
           loadStatsData(caseFilters);
